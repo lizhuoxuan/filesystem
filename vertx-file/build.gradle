@@ -41,6 +41,7 @@ dependencies {
     compile "org.codehaus.groovy:groovy-all:${groovyVersion}"
     compile "io.vertx:vertx-core:$vertxVersion"
     compile "io.vertx:vertx-web:$vertxVersion"
+    compile "io.vertx:vertx-web-client:$vertxVersion"
     compile "io.vertx:vertx-lang-groovy:$vertxVersion"
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
