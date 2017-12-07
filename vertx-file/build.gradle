@@ -37,7 +37,7 @@ shadowJar {
 }
 
 dependencies {
-
+    compile group: 'net.coobird', name: 'thumbnailator', version: '0.4.8'
     compile "org.codehaus.groovy:groovy-all:${groovyVersion}"
     compile "io.vertx:vertx-core:$vertxVersion"
     compile "io.vertx:vertx-web:$vertxVersion"
