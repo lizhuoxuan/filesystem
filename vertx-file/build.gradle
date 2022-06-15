@@ -17,7 +17,7 @@ group 'vertx-file'
 version '1.0-SNAPSHOT'
 
 def vertxVersion = '3.5.0'
-def groovyVersion = '2.4.12'
+def groovyVersion = '4.0.3'
 
 sourceCompatibility = 1.8
 
